@@ -25,7 +25,7 @@ function Youtube() {
           <div className="col-lg-9 col-xl-8">
             <div className="ratio ratio-16x9 rounded-4 shadow-2xl border border-secondary border-opacity-25 overflow-hidden bg-black">
               <iframe 
-                src="https://www.youtube.com/embed/WQ-Qu1cTgXc?si=b5ldGJs-ZlEJQWC0" 
+                src="https://www.youtube.com/embed/7rLf4QnIG2c?si=02tkccoO1lTUvqm_" 
                 title="YouTube video" 
                 allowFullScreen
                 className="w-100 h-100"
@@ -38,7 +38,7 @@ function Youtube() {
         <div className="row justify-content-center text-center">
           <div className="col-md-6 col-lg-5">
             <a 
-              href="https://www.youtube.com/@10Dezenasbr" 
+              href="https://www.youtube.com" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="btn btn-danger btn-lg w-100 py-3 rounded-4 fw-bold shadow-lg hover-pulse d-inline-flex align-items-center justify-content-center gap-2"
