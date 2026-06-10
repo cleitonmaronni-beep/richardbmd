@@ -1,0 +1,67 @@
+/* Estilo Base dos Botões */
+.custom-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+}
+
+/* Espaçamento do Ícone */
+.button-icon {
+  margin-right: 10px;
+  font-size: 1.1rem;
+}
+
+/* Efeito Hover Geral (Levantamento sutil) */
+.custom-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Botão Regulamento (Âmbar/Sofisticado) */
+.btn-regulamento {
+  background-color: #fef3c7;
+  color: #d97706;
+}
+.btn-regulamento:hover {
+  background-color: #d97706;
+  color: #ffffff;
+}
+
+/* Botão Cadastrar (Azul Moderno) */
+.btn-cadastrar {
+  background-color: #dbeafe;
+  color: #2563eb;
+}
+.btn-cadastrar:hover {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+/* Botão Login (Verde Esmeralda) */
+.btn-login {
+  background-color: #d1fae5;
+  color: #059669;
+}
+.btn-login:hover {
+  background-color: #059669;
+  color: #ffffff;
+}
+
+/* Botão Vídeos (Vermelho/Rosa Moderno) */
+.btn-videos {
+  background-color: #ffe4e6;
+  color: #e11d48;
+}
+.btn-videos:hover {
+  background-color: #e11d48;
+  color: #ffffff;
+}
