@@ -16,13 +16,13 @@ function SocialCTA() {
                 🔥 Não Acumula!
               </span>
               <h2 className="display-5 fw-extrabold text-dark mb-3">
-                Acompanhe nossos Concursos
+                Veja Nossa tabela de Premiação!
               </h2>
               <h3 className="h4 fw-normal text-dark mb-3">
                 Prêmios toda semana e o melhor: <span className="text-warning fw-bold">GARANTIDOS!</span>
               </h3>
               <p className="text-muted lead fs-6 mx-auto mb-0" style={{ maxWidth: '550px' }}>
-                Veja nossas provas de pagamento publicamente em nossas Redes Sociais e jogue com total transparência.
+                Já somos mais de 500 amigos e quanto mais participantes maior é o prêmio!.
               </p>
             </div>
 

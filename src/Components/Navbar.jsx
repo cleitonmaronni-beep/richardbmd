@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from './images/logo.png';
 
 function Navbar(){
     return (
@@ -6,8 +7,8 @@ function Navbar(){
 
     <div className="container">
             
-        <a className="navbar-brand" href="#">
-          <img src="Images/logo.png" alt="" height="28" />
+        <a className="navbar-brand" href="/">
+          <img src={logo} alt="logo" height="43" width="250"/>
         </a>
 
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,13 +18,16 @@ function Navbar(){
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#banner">Home</a>
+              <a className="nav-link" aria-current="page" href="/">Home</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" aria-current="page" href="#footer">Contato</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#testemunho">Regulamento</a>
+              <a className="nav-link" aria-current="page" href="/regulamento">Regulamento</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" aria-current="page" href="/tutoriais">Como Funciona?</a>
             </li>
           </ul>
         </div>    

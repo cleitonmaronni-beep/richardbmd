@@ -24,9 +24,7 @@ function Home (){
     <SocialCTA/>
 
     <>
-    <center>
-    <h1> Veja nossa tabela de Premiações e venha participar!</h1>
-    <h3>Quanto mais participantes maior é o prêmio!</h3>
+    <center>   
     <PrizeTable/>
     </center>
     </>

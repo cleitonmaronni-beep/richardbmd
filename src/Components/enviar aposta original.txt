@@ -35,14 +35,13 @@ export default function ModalApostaWhatsApp() {
       return;
     }
 
-    const message = `Olá amigo! Seguem meus números escolhidos pelo site:\n\n*Nome:* ${name}\n*WhatsApp:* ${phone}\n*Dezenas Escolhidas:* ${selectedNumbers.join(', ')}`;
+    const message = `Olá! Seguem meus números escolhidos:\n\n*Nome:* ${name}\n*WhatsApp:* ${phone}\n*Dezenas Escolhidas:* ${selectedNumbers.join(', ')}`;
     const encodedMessage = encodeURIComponent(message);
     
     // Substitua pelo seu número de atendimento (com código do país e DDD)
-    const adminPhone = "5521965059044"; 
+    const adminPhone = "5521993566797"; 
     
-    // CORREÇÃO: Adicionado o "$" e o "?" antes de abrir os parâmetros da URL
-  window.open(`https://wa.me/${adminPhone}?text=${encodedMessage}`, '_blank');
+    window.open(`https://wa.me{adminPhone}&text=${encodedMessage}`, '_blank');
   };
 
   // Botão para reabrir caso o modal seja fechado
