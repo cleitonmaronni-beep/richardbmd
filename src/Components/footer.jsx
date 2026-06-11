@@ -13,22 +13,22 @@ function Footer() {
           <div className="col-12">
             <ul className="list-unstyled d-flex justify-content-center align-items-center gap-4 mb-0">
               <li>
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="text-white-50 hover-text-primary transition-all">
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="text-white-100 hover-text-primary transition-all">
                   <i className="fa-brands fa-facebook fs-3"></i>
                 </a>
               </li>
               <li>
-                <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-white-50 hover-text-danger transition-all">
+                <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-white-100 hover-text-danger transition-all">
                   <i className="fa-brands fa-youtube fs-3"></i>
                 </a>
               </li>
               <li>
-                <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" className="text-white-50 hover-text-instagram transition-all">
+                <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" className="text-white-100 hover-text-instagram transition-all">
                   <i className="fa-brands fa-instagram fs-3"></i>
                 </a>
               </li>						
               <li>
-                <a href="https://wa.me/5521965059044" target="_blank" rel="noopener noreferrer" className="text-white-50 hover-text-success transition-all">
+                <a href="https://wa.me/5521980906884" target="_blank" rel="noopener noreferrer" className="text-white-100 hover-text-success transition-all">
                   <i className="fa-brands fa-whatsapp fs-3"></i>
                 </a>
               </li>

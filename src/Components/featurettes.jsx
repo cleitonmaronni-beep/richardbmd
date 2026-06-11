@@ -6,91 +6,73 @@ export default function Featurettes() {
     <section className="py-5 bg-light">
       <div className="container text-center">
         {/* Título da Seção */}
-        <div className="row justify-content-center mb-5">
-          <div className="col-md-8 col-lg-6">
-            <h2 className="fw-bold display-5 text-dark mb-3">Nossos Recursos</h2>
-            <p className="text-muted leading-relaxed">
-              Descubra as vantagens de nossa plataforma com recursos projetados para escalar o seu negócio.
-            </p>
-          </div>
+        {/* Cabeçalho da Seção */}
+        <div className="text-center mb-5">
+          <span className="text-primary text-uppercase fw-bold tracking-wider small">Inédito</span>
+          <h2 className="display-6 fw-bold mt-1 text-dark">O Bolão que não Acumula!</h2>
+          <div className="mx-auto bg-primary rounded" style={{ width: '60px', height: '4px' }}></div>
         </div>
 
         {/* Grid de Cards de Recursos */}
         <div className="row g-4 justify-content-center">
           
-          {/* Card 1 */}
-          <div className="col-sm-10 col-md-6 col-lg-4">
-            <div className="card h-100 border-0 shadow-sm p-4 hover-translate-y transition-all">
-              <div className="d-flex justify-content-center mb-4">
-                <div className="p-3 bg-primary bg-opacity-10 rounded-circle text-primary" style={{ width: "80px", height: "80px" }}>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" viewBox="0 0 16 16">
-                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-                    <path fillRule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-                  </svg>
-                </div>
+          {/* Recurso 1 */}
+          <div className="col-md-6 col-lg-3">
+            <div className="card h-100 border-0 shadow-sm hover-translate rounded-4 p-3 bg-white text-center">
+              <div className="d-flex align-items-center justify-content-center bg-primary bg-opacity-10 rounded-circle mx-auto mb-3" style={{ width: '80px', height: '80px' }}>
+				  {/*<img src="public/Images/conferir.png" className="img-fluid" style={{ maxHeight: '45px' }} alt="Ícone de conferência" />*/}
               </div>
-              <div className="card-body p-0 d-flex flex-column">
-                <h3 className="h4 fw-semibold mb-3 text-dark">Primeiro Recurso</h3>
-                <p className="card-text text-muted flex-grow-1 px-2">
-                  Conteúdo demonstrativo para a primeira coluna de texto. Totalmente adaptável e responsivo.
+              <div className="card-body d-flex flex-column p-2">
+                <h5 className="card-title fw-bold text-dark mb-3">Fácil de Conferir!</h5>
+                <p className="card-text text-muted small flex-grow-1">
+                  Nossos resultados são Oficiais e retirados diretamente do site{' '}
+                  <a href="https://loterias.caixa.gov.br/Paginas/Lotofacil.aspx" target="_blank" rel="noopener noreferrer" className="text-primary fw-semibold text-decoration-none">
+                    Resultado Lotofácil (Caixa)
+                  </a>{' '}
+                  para qualquer participante conferir de qualquer dispositivo.
                 </p>
-                <div className="mt-4">
-                  <a href="#" className="btn btn-outline-primary rounded-pill px-4 transition-all">
-                    Ver detalhes &rarr;
-                  </a>
-                </div>
+                <a href="https://loterias.caixa.gov.br/Paginas/Lotofacil.aspx" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary w-100 rounded-pill mt-3 fw-semibold shadow-sm">
+                  Ver Resultados
+                </a>
               </div>
             </div>
           </div>
 
           {/* Card 2 */}
-          <div className="col-sm-10 col-md-6 col-lg-4">
-            <div className="card h-100 border-0 shadow-sm p-4 hover-translate-y transition-all">
-              <div className="d-flex justify-content-center mb-4">
-                <div className="p-3 bg-success bg-opacity-10 rounded-circle text-success" style={{ width: "80px", height: "80px" }}>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" viewBox="0 0 16 16">
-                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
-                  </svg>
-                </div>
+           <div className="col-md-6 col-lg-3">
+            <div className="card h-100 border-0 shadow-sm hover-translate rounded-4 p-3 bg-white text-center">
+              <div className="d-flex align-items-center justify-content-center bg-success bg-opacity-10 rounded-circle mx-auto mb-3" style={{ width: '80px', height: '80px' }}>
+                
               </div>
-              <div className="card-body p-0 d-flex flex-column">
-                <h3 className="h4 fw-semibold mb-3 text-dark">Segundo Recurso</h3>
-                <p className="card-text text-muted flex-grow-1 px-2">
-                  Outra seção empolgante com texto explicativo sobre as vantagens do seu produto ou serviço.
+              <div className="card-body d-flex flex-column p-2">
+                <h5 className="card-title fw-bold text-dark mb-3">Grupo Atualizado!</h5>
+                <p className="card-text text-muted small flex-grow-1">
+                  Em nosso grupo oficial você fica sabendo tudo sobre nossos resultados que são postados na hora! Entre no grupo e acompanhe as novidades.
                 </p>
-                <div className="mt-4">
-                  <a href="#" className="btn btn-outline-success rounded-pill px-4 transition-all">
-                    Ver detalhes
-                  </a>
-                </div>
+                <a href="https://chat.whatsapp.com/HxNSKBnToAkLVSBM0WDb5b" target="_blank" rel="noopener noreferrer" className="btn btn-success w-100 rounded-pill mt-3 fw-semibold shadow-sm">
+                  Entrar no Grupo
+                </a>
               </div>
             </div>
           </div>
 
           {/* Card 3 */}
-          <div className="col-sm-10 col-md-6 col-lg-4">
-            <div className="card h-100 border-0 shadow-sm p-4 hover-translate-y transition-all">
-              <div className="d-flex justify-content-center mb-4">
-                <div className="p-3 bg-info bg-opacity-10 rounded-circle text-info" style={{ width: "80px", height: "80px" }}>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" viewBox="0 0 16 16">
-                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                  </svg>
-                </div>
+           <div className="col-md-6 col-lg-3">
+            <div className="card h-100 border-0 shadow-sm hover-translate rounded-4 p-3 bg-white text-center">
+              <div className="d-flex align-items-center justify-content-center bg-warning bg-opacity-15 rounded-circle mx-auto mb-3" style={{ width: '80px', height: '80px' }}>
+                
               </div>
-              <div className="card-body p-0 d-flex flex-column">
-                <h3 className="h4 fw-semibold mb-3 text-dark">Terceiro Recurso</h3>
-                <p className="card-text text-muted flex-grow-1 px-2">
-                  Por fim, a terceira coluna detalhando os últimos pontos importantes de forma concisa e elegante.
+              <div className="card-body d-flex flex-column p-2">
+                <h5 className="card-title fw-bold text-dark mb-3">Comissões Vitalícias!</h5>
+                <p className="card-text text-muted small flex-grow-1">
+                  Ganhe comissões apenas por convidar novos amigos e receba 10% de comissões em cada concurso que eles participarem de forma contínua!
                 </p>
-                <div className="mt-4">
-                  <a href="#" className="btn btn-outline-info rounded-pill px-4 transition-all">
-                    Ver detalhes
-                 </a>
-                </div>
+                <a href="https://10dezenas.top/login" className="btn btn-primary w-100 rounded-pill mt-3 fw-semibold shadow-sm">
+                  Comece Grátis
+                </a>
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>

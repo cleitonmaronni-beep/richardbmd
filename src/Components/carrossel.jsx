@@ -1,6 +1,8 @@
 import React from 'react';
-import './styles/carousel.css'; 
+import './styles.css'; 
 import banner3 from '../assets/banner3.png';
+import tabela from '../assets/tabela.png';
+import tabela2 from '../assets/tabela2.png';
 
 
 
@@ -35,7 +37,7 @@ export default function Carrossel() {
             {/* Slide 2 */}
             <div className="carousel-item" data-bs-interval="5000">
               <div className="position-relative">
-                <img src={banner3} className="d-block w-100"  alt="Segunda novidade" style={{ objectFit: 'cover' }}/>{/*style={{ height: '450px', objectFit: 'cover' }}*/}
+                <img src={tabela} className="d-block w-100"  alt="Segunda novidade" style={{ objectFit: 'cover' }}/>{/*style={{ height: '450px', objectFit: 'cover' }}*/}
                 <div className="position-absolute top-0 start-0 w-100 h-100 bg-none opacity-0"></div>
               </div>
               
@@ -44,7 +46,7 @@ export default function Carrossel() {
             {/* Slide 3 */}
             <div className="carousel-item" data-bs-interval="5000">
               <div className="position-relative">
-                <img src={banner3} className="d-block w-100"  alt="Terceiro destaque" style={{ objectFit: 'cover' }} />{/*style={{ height: '450px', objectFit: 'cover' }}*/}
+                <img src={tabela2} className="d-block w-100"  alt="Terceiro destaque" style={{ objectFit: 'cover' }} />{/*style={{ height: '450px', objectFit: 'cover' }}*/}
                 <div className="position-absolute top-0 start-0 w-100 h-100 bg-none opacity-0"></div>
               </div>
               
