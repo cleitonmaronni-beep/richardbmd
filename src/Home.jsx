@@ -16,7 +16,7 @@ function Home (){
 
         <div>
 
-            <Navbar/><br/>
+            <Navbar/><br/><br/><hr/>
     <Carrossel/> <br/>
      <center><ModalApostaWhatsApp/></center>
     

@@ -1,14 +1,16 @@
 import React from 'react';
 import logo from './images/logo.png';
+import './styles.css';
 
 function Navbar(){
     return (
+      <section className='navbar'>
      <nav className="navbar fixed-top navbar-expand-md navbar-dark">
 
     <div className="container">
             
         <a className="navbar-brand" href="/">
-          <img src={logo} alt="logo" height="43" width="250"/>
+          <img src={logo} alt="logo" height="90" width="360"/>
         </a>
 
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,6 +36,7 @@ function Navbar(){
       
     </div>
   </nav>
+  </section>
     );
   }
 
