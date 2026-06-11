@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Components/Navbar";
 import Carrossel from "./Components/carrossel.jsx";
+//import Carousel from "./Components/slider.tsx";
 //import Features from './Components/features.jsx';
 import Featurettes from "./Components/featurettes.jsx";
 import How from "./Components/how.jsx";
@@ -17,7 +18,7 @@ function Home() {
       <br />
       <br />
       <hr />
-      <Carrossel /> <br />
+      <Carrossel/> <br />
       <center>
         <ModalApostaWhatsApp />
       </center>

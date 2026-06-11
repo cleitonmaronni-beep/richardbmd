@@ -1,7 +1,8 @@
 import React from 'react';
 import './styles/carousel.css'; 
-import banner5 from './images/banner5.png';
-import banner12 from './images/banner12.png';
+import banner3 from '../assets/banner3.png';
+
+
 
 
 export default function Carrossel() {
@@ -25,43 +26,28 @@ export default function Carrossel() {
             {/* Slide 1 */}
             <div className="carousel-item active" data-bs-interval="5000">
               <div className="position-relative">
-                <img src={banner5} className="d-block w-100"  alt="Destaque principal" style={{ objectFit: 'cover' }} />{/*style={{ height: '450px', objectFit: 'cover' }}*/}
-                <div className="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-0"></div>
+                <img src={banner3} className="d-block w-100"  alt="Destaque principal" style={{ objectFit: 'cover' }} />;{/*style={{ height: '450px', objectFit: 'cover' }}*/}
+                <div className="position-absolute top-0 start-0 w-100 h-100 bg-none opacity-0"></div>
               </div>
-              <div className="carousel-caption d-none d-md-block text-start start-5 bottom-30 custom-caption opacity-0">
-                <span className="badge bg-primary mb-2 px-3 py-2 text-uppercase tracking-wider">Novidade</span>
-                <h2 className="display-5 fw-bold text-white mb-2">Receba Comissões</h2>
-                <p className="lead text-white-50 mb-4">Em nossa plataforma você recebe comissões vitalícias,em qualquer bilhete comprado por seus indicados.</p>
-                <a href="#saiba-mais" className="btn btn-primary btn-lg px-4 rounded-pill shadow">Comece já</a>
-              </div>
+              
             </div>
 
             {/* Slide 2 */}
             <div className="carousel-item" data-bs-interval="5000">
               <div className="position-relative">
-                <img src={banner12} className="d-block w-100"  alt="Segunda novidade" style={{ objectFit: 'cover' }}/>{/*style={{ height: '450px', objectFit: 'cover' }}*/}
-                <div className="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-0"></div>
+                <img src={banner3} className="d-block w-100"  alt="Segunda novidade" style={{ objectFit: 'cover' }}/>{/*style={{ height: '450px', objectFit: 'cover' }}*/}
+                <div className="position-absolute top-0 start-0 w-100 h-100 bg-none opacity-0"></div>
               </div>
-              <div className="carousel-caption d-none d-md-block text-start start-5 bottom-30 custom-caption opacity-0">
-                <span className="badge bg-success mb-2 px-3 py-2 text-uppercase tracking-wider">Não Acumula</span>
-                <h2 className="display-5 fw-bold text-white mb-2">Alguém vai ganhar</h2>
-                <p className="lead text-white-50 mb-4">Nossos Bolões não acumulam,assim você fica ciente que não retemos saldo de ninguém.</p>
-                <a href="#produtos" className="btn btn-success btn-lg px-4 rounded-pill shadow">Fazer cadastro</a>
-              </div>
+              
             </div>
 
             {/* Slide 3 */}
             <div className="carousel-item" data-bs-interval="5000">
               <div className="position-relative">
-                <img src={banner5} className="d-block w-100"  alt="Terceiro destaque" style={{ objectFit: 'cover' }} />{/*style={{ height: '450px', objectFit: 'cover' }}*/}
-                <div className="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-0"></div>
+                <img src={banner3} className="d-block w-100"  alt="Terceiro destaque" style={{ objectFit: 'cover' }} />{/*style={{ height: '450px', objectFit: 'cover' }}*/}
+                <div className="position-absolute top-0 start-0 w-100 h-100 bg-none opacity-0"></div>
               </div>
-              <div className="carousel-caption d-none d-md-block text-start start-5 bottom-30 custom-caption opacity-0">
-                <span className="badge bg-warning text-dark mb-2 px-3 py-2 text-uppercase tracking-wider">Exclusivo</span>
-                <h2 className="display-5 fw-bold text-white mb-2">Você nunca viu</h2>
-                <p className="lead text-white-50 mb-4">Nosso método de apuração é fácil e rápido,utizando resultados públicos sem manipulação e total transparência.</p>
-                <a href="#contato" className="btn btn-warning btn-lg px-4 rounded-pill shadow fw-semibold">Criar conta</a>
-              </div>
+              
             </div>
           </div>
 

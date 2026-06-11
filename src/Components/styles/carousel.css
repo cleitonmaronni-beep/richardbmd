@@ -12,7 +12,13 @@
 .carousel-item.active .custom-caption span {
     animation: fadeInUp 1s ease forwards;
 }
+img{
 
+    border-radius: 24px;
+
+
+
+}
 
 @keyframes fadeInUp {
     from {
