@@ -20,6 +20,7 @@ function Home() {
       <hr />
       <Carrossel/> <br />
       <center>
+        <h3>Clique no Botão e faça sua Aposta Agora!</h3>
         <ModalApostaWhatsApp />
       </center>
       <Featurettes />
@@ -31,11 +32,13 @@ function Home() {
       </>
       <br />
       <center>
+        <h3>Muito fácil participar,basta clicar no botão abaixo!</h3>
         <ModalApostaWhatsApp />
       </center>
       <Youtube />
       <br />
       <center>
+        <h3>Não perca tempo envie suas dezenas agora!</h3>
         <ModalApostaWhatsApp />
       </center>
       <How />

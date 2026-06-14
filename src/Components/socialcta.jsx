@@ -53,7 +53,7 @@ function SocialCTA() {
               
               <div className="col-sm-4 col-11">
                 <a 
-                  href="https://wa.me/5521965059044" 
+                  href="https://wa.me/5521980906884" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="btn btn-success btn-lg w-100 py-3 rounded-4 fw-bold shadow hover-scale d-flex align-items-center justify-content-center gap-2"

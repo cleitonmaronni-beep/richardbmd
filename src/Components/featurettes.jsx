@@ -1,6 +1,7 @@
 import React from 'react';
 
 
+
 export default function Featurettes() {
   return (
     <section className="py-5 bg-light">
@@ -26,12 +27,12 @@ export default function Featurettes() {
                 <h5 className="card-title fw-bold text-dark mb-3">Fácil de Conferir!</h5>
                 <p className="card-text text-muted small flex-grow-1">
                   Nossos resultados são Oficiais e retirados diretamente do site{' '}
-                  <a href="https://loterias.caixa.gov.br/Paginas/Lotofacil.aspx" target="_blank" rel="noopener noreferrer" className="text-primary fw-semibold text-decoration-none">
-                    Resultado Lotofácil (Caixa)
+                  <a href="https://www.ojogodobicho.com/deu_no_poste.htm" target="_blank" rel="noopener noreferrer" className="text-primary fw-semibold text-decoration-none">
+                    Deu no Poste (PT-Rio)
                   </a>{' '}
                   para qualquer participante conferir de qualquer dispositivo.
                 </p>
-                <a href="https://loterias.caixa.gov.br/Paginas/Lotofacil.aspx" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary w-100 rounded-pill mt-3 fw-semibold shadow-sm">
+                <a href="https://www.ojogodobicho.com/deu_no_poste.htm" target="_blank" rel="noopener noreferrer" className="btn btn-primary w-100 rounded-pill mt-3 fw-semibold shadow-sm">
                   Ver Resultados
                 </a>
               </div>
@@ -49,7 +50,7 @@ export default function Featurettes() {
                 <p className="card-text text-muted small flex-grow-1">
                   Em nosso grupo oficial você fica sabendo tudo sobre nossos resultados que são postados na hora! Entre no grupo e acompanhe as novidades.
                 </p>
-                <a href="https://chat.whatsapp.com/HxNSKBnToAkLVSBM0WDb5b" target="_blank" rel="noopener noreferrer" className="btn btn-success w-100 rounded-pill mt-3 fw-semibold shadow-sm">
+                <a href="https://chat.whatsapp.com/" target="_blank" rel="noopener noreferrer" className="btn btn-success w-100 rounded-pill mt-3 fw-semibold shadow-sm">
                   Entrar no Grupo
                 </a>
               </div>
@@ -63,12 +64,12 @@ export default function Featurettes() {
                 
               </div>
               <div className="card-body d-flex flex-column p-2">
-                <h5 className="card-title fw-bold text-dark mb-3">Comissões Vitalícias!</h5>
+                <h5 className="card-title fw-bold text-dark mb-3">Receba No PIX!</h5>
                 <p className="card-text text-muted small flex-grow-1">
-                  Ganhe comissões apenas por convidar novos amigos e receba 10% de comissões em cada concurso que eles participarem de forma contínua!
+                  Receba seu prêmio no final da apuração e melhor no PIX sem burocracia ou taxas,e lembrando que nossos prêmios não acumula!
                 </p>
-                <a href="https://10dezenas.top/login" className="btn btn-primary w-100 rounded-pill mt-3 fw-semibold shadow-sm">
-                  Comece Grátis
+                <a href="https://wa.me/552198060XXXXXX" className="btn btn-warning w-100 rounded-pill mt-3 fw-semibold shadow-sm">
+                  Fale Conosco
                 </a>
               </div>
             </div>

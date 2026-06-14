@@ -53,11 +53,12 @@ export default function ModalApostaWhatsApp() {
   if (!isOpen) {
     return (
       <div className="d-flex justify-content-center p-4">
+        
         <button 
           onClick={() => setIsOpen(true)} 
           className="btn btn-success btn-lg fw-bold fs-2 px-5 py-3 shadow"
         >
-          🎯 Escolha suas Dezenas!
+          🎯 Enviar seus números pelo Whatsapp!
         </button>
       </div>
     );

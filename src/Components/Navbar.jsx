@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './images/logo.png';
 import './styles.css';
+//import { Link } from 'react-router-dom';
+//import Regulamento from '../routes/regulamento.jsx';
 
 function Navbar(){
     return (
@@ -10,7 +12,7 @@ function Navbar(){
     <div className="container">
             
         <a className="navbar-brand" href="/">
-          <img src={logo} alt="logo" height="90" width="360"/>
+          <img src={logo} alt="logo" height="60" width="300"/>
         </a>
 
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
