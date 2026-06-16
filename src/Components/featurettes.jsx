@@ -68,7 +68,7 @@ export default function Featurettes() {
                 <p className="card-text text-muted small flex-grow-1">
                   Receba seu prêmio no final da apuração e melhor no PIX sem burocracia ou taxas,e lembrando que nossos prêmios não acumula!
                 </p>
-                <a href="https://wa.me/552198060XXXXXX" className="btn btn-warning w-100 rounded-pill mt-3 fw-semibold shadow-sm">
+                <a href="https://wa.me/5521980906884" className="btn btn-warning w-100 rounded-pill mt-3 fw-semibold shadow-sm">
                   Fale Conosco
                 </a>
               </div>

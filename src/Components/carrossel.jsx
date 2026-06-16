@@ -1,8 +1,8 @@
 import React from 'react';
-import './styles.css'; 
-import banner3 from '../assets/banner3.png';
-import tabela from '../assets/tabela.png';
-import banner from '../assets/banner.png';
+import './styles/carousel.css'; 
+import bannernew from '../assets/bannernew.jpg';
+import banner2 from '../assets/banner2.png';
+
 
 
 
@@ -28,7 +28,7 @@ export default function Carrossel() {
             {/* Slide 1 */}
             <div className="carousel-item active" data-bs-interval="5000">
               <div className="position-relative">
-                <img src={banner3} className="d-block w-100"  alt="Destaque principal" style={{ objectFit: 'cover' }} />;{/*style={{ height: '450px', objectFit: 'cover' }}*/}
+                <img src={bannernew} className="d-block w-100"  alt="Destaque principal" style={{ objectFit: 'cover' }} />{/*style={{ height: '450px', objectFit: 'cover' }}*/}
                 <div className="position-absolute top-0 start-0 w-100 h-100 bg-none opacity-0"></div>
               </div>
               
@@ -37,7 +37,7 @@ export default function Carrossel() {
             {/* Slide 2 */}
             <div className="carousel-item" data-bs-interval="5000">
               <div className="position-relative">
-                <img src={banner} className="d-block w-100"  alt="Segunda novidade" style={{ objectFit: 'cover' }}/>{/*style={{ height: '450px', objectFit: 'cover' }}*/}
+                <img src={banner2} className="d-block w-100"  alt="Segunda novidade" style={{ objectFit: 'cover' }}/>{/*style={{ height: '450px', objectFit: 'cover' }}*/}
                 <div className="position-absolute top-0 start-0 w-100 h-100 bg-none opacity-0"></div>
               </div>
               
@@ -46,7 +46,7 @@ export default function Carrossel() {
             {/* Slide 3 */}
             <div className="carousel-item" data-bs-interval="5000">
               <div className="position-relative">
-                <img src={banner3} className="d-block w-100"  alt="Terceiro destaque" style={{ objectFit: 'cover' }} />{/*style={{ height: '450px', objectFit: 'cover' }}*/}
+                <img src={bannernew} className="d-block w-100"  alt="Terceiro destaque" style={{ objectFit: 'cover' }} />{/*style={{ height: '450px', objectFit: 'cover' }}*/}
                 <div className="position-absolute top-0 start-0 w-100 h-100 bg-none opacity-0"></div>
               </div>
               

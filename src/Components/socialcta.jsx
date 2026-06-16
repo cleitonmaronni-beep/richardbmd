@@ -30,7 +30,7 @@ function SocialCTA() {
             <div className="row g-3 justify-content-center pt-2">
               <div className="col-sm-4 col-11">
                 <a 
-                  href="https://www.facebook.com" 
+                  href="https://www.facebook.com/profile.php?id=61590770284347" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="btn btn-primary btn-lg w-100 py-3 rounded-4 fw-bold shadow hover-scale d-flex align-items-center justify-content-center gap-2"
@@ -41,7 +41,7 @@ function SocialCTA() {
               
               <div className="col-sm-4 col-11">
                 <a 
-                  href="https://instagram.com" 
+                  href="https://www.instagram.com/mdoacao?igsh=MTcyOGtqcTl2bW5qMQ%3D%3D" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="btn btn-danger btn-lg w-100 py-3 rounded-4 fw-bold shadow hover-scale d-flex align-items-center justify-content-center gap-2"

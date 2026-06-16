@@ -13,7 +13,7 @@ function Footer() {
           <div className="col-12">
             <ul className="list-unstyled d-flex justify-content-center align-items-center gap-4 mb-0">
               <li>
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="text-white-100 hover-text-primary transition-all">
+                <a href="https://www.facebook.com/profile.php?id=61590770284347" target="_blank" rel="noopener noreferrer" className="text-white-100 hover-text-primary transition-all">
                   <i className="fa-brands fa-facebook fs-3"></i>
                 </a>
               </li>
@@ -23,7 +23,7 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" className="text-white-100 hover-text-instagram transition-all">
+                <a href="https://www.instagram.com/mdoacao?igsh=MTcyOGtqcTl2bW5qMQ%3D%3D" target="_blank" rel="noopener noreferrer" className="text-white-100 hover-text-instagram transition-all">
                   <i className="fa-brands fa-instagram fs-3"></i>
                 </a>
               </li>						
