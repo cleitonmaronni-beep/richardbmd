@@ -23,7 +23,7 @@ function How() {
               <div className="accordion-item border rounded-3 overflow-hidden shadow-sm bg-light">
                 <h2 className="accordion-header">
                   <button className="accordion-button collapsed fw-semibold text-dark bg-light py-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                    1. O que é o Bolão 10 Dezenas?
+                    1. O que é o Bolão Mega Doação?
                   </button>
                 </h2>
                 <div id="collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionFAQ">

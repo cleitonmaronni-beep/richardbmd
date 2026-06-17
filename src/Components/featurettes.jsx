@@ -50,7 +50,7 @@ export default function Featurettes() {
                 <p className="card-text text-muted small flex-grow-1">
                   Em nosso grupo oficial você fica sabendo tudo sobre nossos resultados que são postados na hora! Entre no grupo e acompanhe as novidades.
                 </p>
-                <a href="https://chat.whatsapp.com/" target="_blank" rel="noopener noreferrer" className="btn btn-success w-100 rounded-pill mt-3 fw-semibold shadow-sm">
+                <a href="https://chat.whatsapp.com/CGRVuzlYtD0JcKJHmv9ZyM?s=sh&p=a&mlu=2&amv=0" target="_blank" rel="noopener noreferrer" className="btn btn-success w-100 rounded-pill mt-3 fw-semibold shadow-sm">
                   Entrar no Grupo
                 </a>
               </div>
