@@ -2,12 +2,14 @@ import React from "react";
 import Navbar from "../Components/Navbar.jsx";
 import Carrossel from "../Components/carrossel.jsx";
 import Featurettes from "../Components/featurettes.jsx";
-import How from "../Components/how.jsx";
-import Footer from "../Components/footer.jsx";
 import SocialCTA from "../Components/socialcta.jsx";
 import Youtube from "../Components/youtube.jsx";
 import ModalApostaWhatsApp from "../Components/createbet.tsx";
 import PrizeTable from "../Components/prizetable.tsx";
+//import Carousel from "../Components/slider.jsx";
+import How from "../Components/how.jsx";
+import Footer from "../Components/footer.jsx";
+
 
 function Home() {
   return (
@@ -23,6 +25,7 @@ function Home() {
       </center>
       <Featurettes />
       <SocialCTA />
+      
       <>
         <center>
           <PrizeTable />

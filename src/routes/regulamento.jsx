@@ -29,8 +29,8 @@ function Regulamento() {
           <section className="mb-4">
             <h5 className="text-primary fw-bold mb-3">Como Participar?</h5>
             <p className="text-secondary text-justify">
-              Para participar primeiramente você tem de ter SALDO correspondente ao valor da aposta. 
-              Caso não tenha, deposite na página área Depositar, e seu saldo será adicionado em até 1 hora, após a confirmação.
+              Para participar basta clicar no botão "Enviar seus Números" na página inicial,escolher suas dezenas e enviar
+              pelo whatsapp!
             </p>
           </section>
 
@@ -41,7 +41,7 @@ function Regulamento() {
             <h5 className="text-primary fw-bold mb-3">Escolhendo as Dezenas</h5>
             <p className="text-secondary text-justify">
               Escolha 10 dezenas entre 00 e 99. Você pode também escolher dezenas repetidas, mas lembrando que você só irá computar, caso a dezena repetida escolhida saia mais de 1 vez em qualquer resultado! 
-              Aguarde a apuração e torça para estar em uma das 3 colocações.
+              Aguarde a apuração e torça para estar nas primeiras colocações.
             </p>
           </section>
 
@@ -51,14 +51,14 @@ function Regulamento() {
           <section className="mb-4">
             <h5 className="text-primary fw-bold mb-3">Apuração</h5>
             <p className="text-secondary text-justify">
-              Nossos concursos se iniciam toda segunda-feira a partir das 11:00 (Horário de Brasília), por esse motivo você tem até às 10:30 para fazer suas apostas.
+              Nossos concursos se iniciam toda segunda-feira a partir das 14:20 (Horário de Brasília), por esse motivo você tem até às 14:00 para fazer suas apostas.
             </p>
             <p className="text-secondary text-justify">
               Nossos resultados são extraídos 6 vezes por dia direto do site{' '}
-              <a href="https://www.resultadofacil.com.br/resultado-do-jogo-do-bicho/RJ" target="_blank" rel="noopener noreferrer" className="fw-semibold text-decoration-none text-info">
-                RESULTADO FÁCIL PT-RIO
+              <a href="https://www.ojogodobicho.com/deu_no_poste.htm" target="_blank" rel="noopener noreferrer" className="fw-semibold text-decoration-none text-info">
+                Deu no Poste (PT-RIO).
               </a>{' '}
-              (9:30 – 11:30 - 14:30 - 16:30 - 18:30 e 21:30, exceto segunda-feira, pois iniciamos a partir do resultado de 11:30). Porém, só é válida a DEZENA DO MEIO (última da Milhar), e resultados do primeiro ao sétimo prêmio.
+              (9:30 – 11:30 - 14:30 - 16:30 - 18:30 e 21:30, exceto segunda-feira, pois iniciamos a partir do resultado de 14:20). Porém, só é válida a DEZENA DO MEIO (última da Milhar), e resultados do primeiro ao sétimo prêmio.
             </p>
             <p className="text-secondary text-justify">
               Esses resultados são postados em nosso Grupo e após isso as dezenas são inseridas no site para apuração e envio do resultado no GRUPO do ZAP.
@@ -70,23 +70,14 @@ function Regulamento() {
               Caso ninguém atinja os dez acertos até o último resultado de sexta-feira às 21:20, os prêmios são distribuídos para os participantes com mais acertos (9/8/7 e etc…) de acordo com a colocação no Ranking.
             </p>
             <p className="text-secondary text-justify fw-medium text-dark">
-              Nossos concursos NÃO ACUMULAM, entre em contato conosco caso tenha mais alguma dúvida! 
+              Nossos concursos NÃO ACUMULAM, entre em contato conosco caso tenha mais alguma dúvida!<br/> 
               Caso haja mais de 1 ganhador, os prêmios serão divididos em partes iguais.
             </p>
           </section>
 
           <hr className="my-4 text-secondary" />
 
-          {/* Seção: Comissões */}
-          <section className="mb-4">
-            <h5 className="text-primary fw-bold mb-3">Sobre as Comissões</h5>
-            <p className="text-secondary text-justify">
-              Qualquer usuário pode convidar amigos, familiares e afins e assim receber 10% de comissões instantâneas em seu SALDO. 
-              Você não necessariamente é obrigado a participar de algum concurso para receber essas comissões, você pode simplesmente se cadastrar, convidar e receber essas comissões.
-            </p>
-          </section>
-
-          <hr className="my-4 text-secondary" />
+         
 
           {/* Seção: Saques */}
           <section className="mb-4">
@@ -95,7 +86,7 @@ function Regulamento() {
               Os saques são processados em até 24 horas após o pedido, de domingo à domingo, 24 horas por dia.
             </p>
             <p className="text-secondary text-justify">
-              Os valores serão enviados diretamente para a conta indicada pelo participante via PIX, não tendo responsabilidade o Bolão 10dezenas.top por valores e chaves PIX incorretas indicadas pelo requerente, portanto verifique sua chave antes de pedir seus valores a receber.
+              Os valores serão enviados diretamente para a conta indicada pelo participante via PIX, não tendo responsabilidade o Bolão Mega Doação por valores e chaves PIX incorretas indicadas pelo requerente, portanto verifique sua chave antes de pedir seus valores a receber.
             </p>
           </section>
 
@@ -106,6 +97,7 @@ function Regulamento() {
             <h5 className="text-primary fw-bold mb-3">Provas de Pagamento</h5>
             <p className="text-secondary text-justify">
               Para manter a transparência e a comodidade de todos, os vencedores de algum valor nos concursos deverão deixar seu depoimento público para a visualização de todos os demais participantes.
+            (Opcional)
             </p>
           </section>
 

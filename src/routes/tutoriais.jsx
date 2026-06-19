@@ -29,7 +29,7 @@ function Tutoriais() {
               {/* Container Responsivo do YouTube (Proporção 16:9) */}
               <div className="ratio ratio-16x9 bg-black">
                 <iframe
-                  src="https://www.youtube.com/embed/4mjELj6Cf7s?si=Lv9Zucc47JEWar7P"
+                  src=""
                   title="YouTube video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   referrerPolicy="strict-origin-when-cross-origin"
